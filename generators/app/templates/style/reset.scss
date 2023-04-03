@@ -1,0 +1,18 @@
+body {
+	font-size: 28rpx;
+}
+
+image {
+  vertical-align: middle;
+}
+
+/* #ifdef H5 */
+ul,
+ol,
+dl {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+/* #endif */

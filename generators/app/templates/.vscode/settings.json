@@ -1,0 +1,11 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "npm.packageManager": "pnpm",
+  "stylelint.packageManager": "pnpm",
+  "eslint.validate": ["javascript", "typescript", "javascriptreact", "typescriptreact", "vue"],
+  "stylelint.snippet": ["css", "less", "scss", "stylus", "postcss", "vue"],
+  "stylelint.validate": ["css", "less", "postcss", "vue", "scss"]
+}

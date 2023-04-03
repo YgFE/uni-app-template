@@ -1,0 +1,36 @@
+{
+  "name": "uni-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix",
+    "commit": "git-cz",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^17.5.1",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "@vue/eslint-config-standard": "^8.0.1",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog-zh": "^0.0.2",
+    "eslint": "^8.36.0",
+    "eslint-plugin-vue": "^9.10.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
+    "prettier": "^2.8.7",
+    "stylelint": "^15.3.0",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-recess-order": "^4.0.0",
+    "stylelint-config-recommended-vue": "^1.4.0",
+    "stylelint-config-standard-scss": "^7.0.1"
+  },
+  "dependencies": {
+    "@vue/composition-api": "^1.7.1"
+  }
+}

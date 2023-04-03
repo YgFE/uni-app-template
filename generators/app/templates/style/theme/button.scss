@@ -1,0 +1,83 @@
+/* #ifndef MP-ALIPAY */
+button {
+	margin-right: 0;
+	margin-left: 0;
+
+  &::after {
+    border-color: $uni-primary;
+  }
+
+  &[type=primary] {
+    background-color: $uni-primary;
+  }
+
+  &[disabled][type=primary] {
+    background-color: lighten($uni-primary, 10);
+  }
+
+  &[loading][type=primary] {
+    background-color: $uni-primary;
+  }
+
+  &[type=ghost] {
+    color: $uni-primary;
+    background-color: transparent;
+
+    &.button-hover {
+      color: #fff;
+      background-color: $uni-primary;
+    }
+  }
+
+  &[disabled] {
+    color: #ccc;
+    background-color: #ddd;
+
+    &::after {
+      border: 0;
+    }
+  }
+}
+
+.button-hover[type=primary] {
+	background-color: darken($uni-primary, 10);
+}
+
+.button-active[type=primary] {
+  background-color: darken($uni-primary, 10);
+  border-color: darken($uni-primary, 10);
+}
+
+/* #endif */
+
+/* #ifdef MP-ALIPAY */
+.a-button-primary {
+  background-color: $uni-primary;
+  border-color: $uni-primary;
+
+  &.a-button-active {
+    background-color: darken($uni-primary, 10);
+    border-color: darken($uni-primary, 10);
+  }
+
+  &.a-button-disabled {
+    background-color: lighten($uni-primary, 10);
+    border: 0;
+  }
+}
+
+.a-button-ghost {
+  color: $uni-primary;
+  border-color: $uni-primary;
+
+  &.a-button-active {
+    color: #fff;
+    background-color: $uni-primary;
+  }
+}
+
+.a-loading-item::before {
+  background-color: darken($uni-primary, 10);
+}
+
+/* #endif */

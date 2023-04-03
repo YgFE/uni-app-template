@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "wayou.vscode-todo-highlight",
+    "octref.vetur",
+    "editorconfig.editorconfig",
+    "vunguyentuan.vscode-css-variables",
+    "dbaeumer.vscode-eslint",
+    "mikestead.dotenv"
+  ]
+}
