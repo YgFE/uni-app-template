@@ -1,13 +1,21 @@
 {
-  "name": "uni-app-template",
+  "name": "generator-uni-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {},
-  "keywords": [],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "files": [
+    "./generators"
+  ],
+  "main": "./generators/app/index.js",
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^4.1.2",
+    "glob": "^9.3.4",
+    "lodash": "^4.17.21",
     "yeoman-generator": "^5.8.0"
   }
 }
